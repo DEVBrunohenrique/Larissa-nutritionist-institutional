@@ -663,7 +663,14 @@ header a {
         height: 350px;
         width: 350px;
     }
-
+    .div-about{
+        width: 100vw;
+    }
+    .about-two{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media (width < 450px){
@@ -685,9 +692,6 @@ header a {
 }
 
 @media (width < 380px){
-    .div-about {
-        padding: 5px;
-    }
     .text-about {
         width: 93vw;
     }
