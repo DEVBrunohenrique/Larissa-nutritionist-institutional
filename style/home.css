@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'League Spartan', sans-serif;
 }
 
 a{
@@ -58,7 +58,7 @@ header nav {
     background: #fff;
     height: 9vh;
     position: fixed;
-    width: 89vw;
+    width: 100vw;
     padding-top: 1vh;
     position: fixed;
     z-index: 999;
@@ -74,7 +74,7 @@ header nav {
 }
 
 .nav-list a{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: normal;
 }
 
@@ -195,7 +195,7 @@ header a {
     text-align: center;
     color: #fff;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 33px;
     font-weight: normal;
 }
 .div-why{
@@ -248,14 +248,14 @@ header a {
 
     display: flex;
     flex-direction: column;
-    width: 29vw;
+    width: 32vw;
 }
 .div-top h1{
     color: var(--roxo);
     font-size: 40px;
     font-weight: 400;
-    margin-top: -10px;
-    margin-bottom: -10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .div-top h2{
@@ -347,9 +347,6 @@ header a {
 }
 
 @media (width < 999px){
-    header nav{
-        width: 126vw;
-    }
     .div-top {
         width: 45vw;
     }
@@ -483,11 +480,11 @@ header a {
 }
 
 #wave1{
-    width: 100%;
+    width: 100vw;
 }
 
 #wave2{
-    width: 100%;
+    width: 100vw;
 }
 
 #container-why{
@@ -504,7 +501,7 @@ header a {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 18vw;
+    width: 19vw;
     justify-content: center;
     padding: 20px;
 }
@@ -540,7 +537,7 @@ header a {
     }
 
     #why{
-        padding-top: 20px;
+        padding-top: 40px;
         padding-bottom: 20px;
         
     }
@@ -565,7 +562,68 @@ header a {
 
 /*   why end   */
 
+/* start about */
 
+#about{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about .titulos{
+    color: var(--verde);
+    margin-top: 60px;
+}
+
+
+
+#container-about{
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.text-about{
+    width: 25vw;
+    font-size: 19px;
+    color: var(--cinza);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.div-content-about h1{
+    color: var(--verde);
+    font-weight: normal;
+    text-align: left;
+}
+
+.div-about{
+    padding: 90px;
+}
+
+.div-consults{
+    display: flex;
+    align-items: baseline;
+    margin-top: 15px;
+    color: var(--cinza);
+}
+
+.div-consults img{
+    height: 40px;
+    width: 33px;
+}
+
+.div-consults p{
+    font-size: 20px;
+    margin-left: 10px;
+   
+}
+
+
+/* end about */
 
 
 
