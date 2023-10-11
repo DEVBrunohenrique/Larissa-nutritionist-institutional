@@ -621,6 +621,50 @@ header a {
     margin-left: 10px;
    
 }
+@media (width < 999px){
+    .div-about{
+        padding: 45px;
+    }
+    .text-about {
+        width: 35vw;
+    }
+}
+
+@media (width < 830px){
+    .div-about{
+        padding: 10px;
+    }
+    .text-about {
+        width: 38vw;
+    }
+}
+
+@media (width < 750px){
+    #container-about{
+        flex-direction: column;
+    }
+    #container-about {
+        align-items: start;
+       
+    }
+    .text-about {
+        width: 70vw;
+    }
+}
+
+@media (width < 550px){
+    .text-about {
+        width: 70vw;
+    }
+
+    #img-about{
+        height: 350px;
+        width: 350px;
+    }
+
+}
+
+
 
 
 /* end about */
