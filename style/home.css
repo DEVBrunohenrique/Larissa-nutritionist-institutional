@@ -654,7 +654,7 @@ header a {
 
 @media (width < 550px){
     .text-about {
-        width: 70vw;
+        width: 80vw;
     }
 
     #img-about{
@@ -665,32 +665,12 @@ header a {
 }
 
 @media (width < 450px){
-    .text-about {
-        width: 70vw;
-    }
 
     #img-about{
         height: 300px;
         width: 300px;
         margin-top: 20px;
     }
-
-}
-
-@media (width < 380px){
-    .div-about {
-        padding: 5px;
-    }
-    .text-about {
-        width: 70vw;
-    }
-
-    #img-about{
-        height: 250px;
-        width: 250px;
-        
-    }
-
     #about{
         align-items: normal;
     }
@@ -700,6 +680,23 @@ header a {
     .text-about {
         width: 90vw;
     }
+}
+
+@media (width < 380px){
+    .div-about {
+        padding: 5px;
+    }
+    .text-about {
+        width: 93vw;
+    }
+
+    #img-about{
+        height: 250px;
+        width: 250px;
+        
+    }
+
+
 }
 
 @media (width < 300px){
