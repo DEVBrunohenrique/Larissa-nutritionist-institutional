@@ -218,7 +218,7 @@ header a {
 }
 .div-top h1{
     color: var(--roxo);
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 400;
     margin-top: -10px;
     margin-bottom: -10px;
@@ -437,6 +437,13 @@ header a {
     }
 }
 
+#wave1{
+    width: 100%;
+}
+
+#wave2{
+    width: 100%;
+}
 
 
 
