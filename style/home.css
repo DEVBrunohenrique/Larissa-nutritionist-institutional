@@ -589,7 +589,7 @@ header a {
 
 .text-about{
     width: 25vw;
-    font-size: 19px;
+    font-size: 21px;
     color: var(--cinza);
     margin-top: 20px;
     margin-bottom: 20px;
@@ -599,6 +599,7 @@ header a {
     color: var(--verde);
     font-weight: normal;
     text-align: left;
+    font-size: 29px;
 }
 
 .div-about{
