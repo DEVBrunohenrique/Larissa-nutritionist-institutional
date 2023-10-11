@@ -664,7 +664,7 @@ header a {
         width: 350px;
     }
     .div-about{
-        width: 95vw;
+        width: 90vw;
     }
     .about-two{
         display: flex;
@@ -684,13 +684,13 @@ header a {
         align-items: normal;
     }
     #container-about {
-        width: 100vw;
+        width: 99vw;
     }
     .text-about {
-        width: 90vw;
+        width: 85vw;
     }
     .about-two{
-        margin-left: -10px;
+     
     }
 }
 
