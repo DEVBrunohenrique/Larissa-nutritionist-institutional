@@ -664,6 +664,63 @@ header a {
 
 }
 
+@media (width < 450px){
+    .text-about {
+        width: 70vw;
+    }
+
+    #img-about{
+        height: 300px;
+        width: 300px;
+        margin-top: 20px;
+    }
+
+}
+
+@media (width < 380px){
+    .div-about {
+        padding: 5px;
+    }
+    .text-about {
+        width: 70vw;
+    }
+
+    #img-about{
+        height: 250px;
+        width: 250px;
+        
+    }
+
+    #about{
+        align-items: normal;
+    }
+    #container-about {
+        width: 100vw;
+    }
+    .text-about {
+        width: 90vw;
+    }
+}
+
+@media (width < 300px){
+    #img-about{
+        height: 210px;
+        width: 210px;
+        
+    }
+    .div-consults p {
+        font-size: 18px;
+        
+    }
+    .div-consults img {
+        height: 31px;
+        width: 27px;
+    }
+    .div-about {
+        padding: 0px;
+    }
+}
+
 
 
 
