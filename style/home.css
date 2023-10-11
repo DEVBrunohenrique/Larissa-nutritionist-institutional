@@ -664,7 +664,7 @@ header a {
         width: 350px;
     }
     .div-about{
-        width: 100vw;
+        width: 95vw;
     }
     .about-two{
         display: flex;
@@ -689,11 +689,16 @@ header a {
     .text-about {
         width: 90vw;
     }
+    .about-two{
+        margin-left: -10px;
+    }
 }
 
 @media (width < 380px){
+    
     .text-about {
         width: 93vw;
+
     }
 
     #img-about{
