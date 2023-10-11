@@ -44,7 +44,7 @@ a:hover {
 }
 
 header{
-    
+    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,7 +55,7 @@ header nav {
     justify-content: space-around;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    background: var(--branco-body);
+    background: #fff;
     height: 9vh;
     position: fixed;
     width: 89vw;
@@ -189,7 +189,34 @@ header a {
 
 }
 
-/*  Top  */
+/*   class   */
+
+.titulos{
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+    font-size: 30px;
+}
+.div-why{
+       width: 70vw; 
+}
+
+@media (width < 580px){
+.titulos{
+    font-size: 26px;
+}
+}
+@media (width < 330px){
+.titulos{
+    font-size: 24px;
+}
+
+}
+
+/*   class end  */
+
+
+/*  Top start  */
 
 #top{
     display: flex;
@@ -437,6 +464,17 @@ header a {
     }
 }
 
+/*   Top end   */
+
+/*   why start   */
+
+#why{
+    background-color: var(--roxo);
+    margin-top: -15px;
+    margin-bottom: -15px;
+    color: #fff;
+}
+
 #wave1{
     width: 100%;
 }
@@ -445,6 +483,76 @@ header a {
     width: 100%;
 }
 
+#container-why{
+    background-color: var(--roxo);
+    padding-top: 50px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-why{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 18vw;
+    justify-content: center;
+    padding: 20px;
+}
+
+.div-why img{
+    margin-bottom: 20px
+}
+
+.div-why h3{
+    margin-bottom: 10px
+}
+
+
+@media (width < 1250px){
+    .div-why{
+       width: 26vw; 
+    }
+}
+
+@media (width < 870px){
+    .div-why{
+       width: 30vw; 
+    }
+}
+
+@media (width < 750px){
+    .div-why{
+       width: 70vw; 
+    }
+
+    #container-why{
+        flex-direction: column;
+    }
+
+    #why{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+
+    #top{
+        margin-bottom: 80px;
+    }
+
+}
+
+@media (width < 330px){
+    .div-why{
+        width: 90vw; 
+     }
+}
+
+
+
+/*   why end   */
 
 
 
