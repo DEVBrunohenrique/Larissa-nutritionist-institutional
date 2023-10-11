@@ -196,6 +196,7 @@ header a {
     color: #fff;
     font-weight: normal;
     font-size: 30px;
+    font-weight: normal;
 }
 .div-why{
        width: 70vw; 
@@ -208,9 +209,15 @@ header a {
 }
 @media (width < 330px){
 .titulos{
-    font-size: 24px;
+    font-size: 23px;
 }
 
+}
+
+@media (width < 230px){
+    .titulos{
+        font-size: 23px;
+    }
 }
 
 /*   class end  */
@@ -548,6 +555,10 @@ header a {
     .div-why{
         width: 90vw; 
      }
+
+     .div-why h3 {
+        font-size: 18px;
+    }
 }
 
 
