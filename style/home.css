@@ -200,7 +200,7 @@ header a {
     font-weight: normal;
     position: relative;
     display: inline-block;
-    text-align: center; /* Centraliza o texto horizontalmente */
+    text-align: center; 
     padding-bottom: 10px;
 }
 
