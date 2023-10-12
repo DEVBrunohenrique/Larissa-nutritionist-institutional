@@ -75,7 +75,7 @@ header nav {
 }
 
 .nav-list a{
-    font-size: 25px;
+    font-size: 22px;
     font-weight: normal;
 }
 
@@ -1168,10 +1168,127 @@ header a {
         margin-left: 0px;
     }
 }
-
-
-
 /* end local */
+
+/* start form */
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+#contact h1{
+    color: var(--roxo);
+    margin-bottom: 50px;
+}
+#container-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-contact{
+    margin: 40px;
+}
+
+.div-contact input{
+    border: none;
+    border-bottom: solid 1px var(--roxo);
+    margin-top: 20px;
+    width: 350px;
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+::placeholder{
+    color: var(--cinza);
+    font-size: 16px;
+}
+
+.div-contact button{
+    border: none;
+    border-bottom: solid 1px var(--roxo);
+    background-color: #fff;
+    margin-top: 30px;
+    font-size: 15px;
+    color: var(--cinza);
+}
+
+#mapa{
+    width: 400px;
+    height: 23vh;
+}
+
+@media (width < 999px){
+    #mapa{
+        width: 300px;
+        height: 23vh;
+    }
+    .div-contact input{
+        width: 300px;
+        
+    }
+    
+}
+
+@media (width < 750px){
+    #container-contact{
+        flex-direction: column;
+    }
+    #mapa{
+        width: 380px;
+        height: 25vh;
+    }
+    .div-contact input{
+        width: 380px;    
+    }
+}
+@media (width < 485px){
+    #mapa{
+        width: 99vw;
+        height: 20vh;
+    }
+    .div-contact input{
+        width: 70vw;    
+    }
+   .div-contact {
+        margin: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (width < 400px){
+    .div-contact input{
+        width: 70vw;    
+}
+}
+
+@media (width < 400px){
+   
+    .div-contact input{
+        width: 80vw;    
+    }
+}
+
+@media (width < 200px){
+
+}
+
+
+
+
+
+/* end form */
 
 
 
