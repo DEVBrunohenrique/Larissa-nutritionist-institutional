@@ -196,9 +196,25 @@ header a {
     text-align: center;
     color: #fff;
     font-weight: normal;
-    font-size: 33px;
+    font-size: 35px;
     font-weight: normal;
+    position: relative;
+    display: inline-block;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding-bottom: 10px;
 }
+
+
+
+.titulos::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 100px; 
+    border-bottom: 1px solid var(--verde); 
+  }
 .div-why{
        width: 70vw; 
 }
@@ -478,7 +494,29 @@ header a {
     margin-top: -15px;
     margin-bottom: -15px;
     color: #fff;
+    display: flex;
+    flex-direction: column;
 }
+
+#white-border{
+    position: relative;
+     display: inline-block;
+     text-align: center; /* Centraliza o texto horizontalmente */
+     padding-bottom: 10px; 
+     font-size: 35px;
+     font-weight: normal;
+     
+   }
+   
+   #white-border::after {
+       content: "";
+       position: absolute;
+       bottom: 0;
+       left: 50%; 
+       transform: translateX(-50%); 
+       width: 10%; 
+       border-bottom: 1px solid #fff; 
+     }
 
 #wave1{
     width: 100vw;
@@ -733,6 +771,8 @@ header a {
 
 #specialties{
     margin-top: 80px;
+    display: flex;
+    flex-direction: column;
 }
 
 
