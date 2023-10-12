@@ -689,9 +689,7 @@ header a {
     .text-about {
         width: 85vw;
     }
-    .about-two{
-     
-    }
+    
 }
 
 @media (width < 380px){
@@ -729,10 +727,84 @@ header a {
     }
 }
 
-
-
-
 /* end about */
+
+/* start especialties */
+
+#specialties{
+    margin-top: 80px;
+}
+
+
+#specialties h1{
+    color: var(--roxo);
+    margin-bottom: 50px;
+}
+
+
+#container-specialties{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-specialties{
+    background-color: var(--roxo);
+    border-radius: 25px;
+    padding: 30px;
+    width: 12vw;
+    height: 8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 70px;
+}
+
+.div-specialties img{
+    height: 66px;
+    width: 72px;
+}
+
+.div-specialties h2{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media (width < 1250px){
+    .div-specialties{
+        width: 19vw;
+        height: 9vw;
+        margin: 23px;
+    }
+}
+
+@media (width < 1250px){
+    .div-specialties{
+        padding: 40px;
+        margin: 20px;
+    }
+}
+
+@media (width < 750px){
+    #container-specialties{
+        flex-direction: column;
+    }
+    .div-specialties {
+        width: 35vw;
+        height: 16vw;
+        margin: 0px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+/* end especialties */
 
 
 
