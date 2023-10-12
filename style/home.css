@@ -658,7 +658,7 @@ header a {
 }
 
 #about .titulos{
-    color: var(--verde);
+    color: var(--roxo);
     margin-top: 60px;
 }
 
@@ -936,11 +936,88 @@ header a {
   }
    
   }
-
-
-
-
 /* end especialties */
+
+
+/* start steps */
+
+#steps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#steps h1.titulos{
+    color: var(--roxo);
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+
+#steps-container{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.div-steps{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+   
+}
+
+.number-steps{
+    background-color: var(--verde);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.number-steps h3{
+    margin-bottom: -3px;
+    color:#fff ;
+}
+
+.text-steps{
+    margin-left: 20px;
+    font-size: 21px;
+    width: 60vw;
+    color: var(--cinza);
+}
+
+@media (width < 999px){
+    .div-steps{
+        align-items: start;
+    }
+}
+
+@media (width < 600px){
+    .text-steps {
+        width: 77vw;  
+    } 
+}
+
+
+@media (width < 300px){
+ .number-steps {
+    width: 30px;
+    height: 33px;
+}   
+.text-steps{
+    font-size: 19px;
+    width: 70vw;
+}
+}
+
+
+/* end steps */
 
 
 
