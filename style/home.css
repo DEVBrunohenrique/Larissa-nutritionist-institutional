@@ -802,15 +802,30 @@ header a {
     }
 }
 
+@media (width < 500px){
+    .div-specialties h2 {
+      font-size: 20px;
+    }
+    .div-specialties img {
+        height: 46px;
+        width: 52px;
+    }
+
+    .div-specialties {
+        width: 45vw;
+        height: 20vw;
+    }
+  }
+  
+
 @media (width < 400px){
   .div-specialties h2 {
     font-size: 20px;
-}
+  }
 
 .div-specialties {
     width: 50vw;
-    height: 20vw;
-   
+    height: 20vw;   
 }
  
 }
