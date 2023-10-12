@@ -742,7 +742,7 @@ header a {
         flex-direction: column;
     }
     #container-about {
-        align-items: start;
+        align-items: center;
        
     }
     .text-about {
