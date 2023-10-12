@@ -221,20 +221,67 @@ header a {
 
 @media (width < 580px){
 .titulos{
-    font-size: 26px;
+    font-size: 30px;
+}
+#white-border {
+    font-size: 30px;
+    
+}
+.div-why h3 {
+    font-size: 23px;
+    font-weight: 400;
+}
+.div-why p{
+    font-size: 19px;
+}
+}
+
+@media (width > 580px){
+#white-border {
+    font-size: 35px;
+    
 }
 }
 @media (width < 330px){
 .titulos{
-    font-size: 23px;
+    font-size: 28px;
+}
+
+#white-border {
+    font-size: 30px;
+    
 }
 
 }
 
 @media (width < 230px){
     .titulos{
-        font-size: 23px;
+        font-size: 26px;
     }
+    #white-border {
+        font-size: 26px;
+        
+    }
+
+    #white-border::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%; 
+        transform: translateX(-50%); 
+        width: 60px; 
+        border-bottom: 1px solid var(--verde); 
+      }
+
+    .titulos::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%; 
+        transform: translateX(-50%); 
+        width: 60px; 
+        border-bottom: 1px solid var(--verde); 
+      }
 }
 
 /*   class end  */
@@ -504,7 +551,6 @@ header a {
      display: inline-block;
      text-align: center; 
      padding-bottom: 10px; 
-     font-size: 35px;
      font-weight: normal;
      
    }
