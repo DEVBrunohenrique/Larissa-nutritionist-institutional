@@ -802,6 +802,40 @@ header a {
     }
 }
 
+@media (width < 400px){
+  .div-specialties h2 {
+    font-size: 20px;
+}
+
+.div-specialties {
+    width: 50vw;
+    height: 20vw;
+   
+}
+ 
+}
+
+@media (width < 250px){
+    .div-specialties img {
+        height: 50px;
+        width: 60px;
+    } 
+}
+
+@media (width < 200px){
+    .div-specialties h2 {
+      font-size: 18px;
+  }
+  
+  .div-specialties {
+      width: 55vw;
+      height: 24vw;
+     
+  }
+   
+  }
+
+
 
 
 /* end especialties */
