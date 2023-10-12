@@ -645,11 +645,14 @@ header a {
 @media (width < 330px){
     .div-why{
         width: 90vw; 
+        padding-left: 0px;
+        padding-right: 0px;
      }
 
      .div-why h3 {
         font-size: 18px;
     }
+
 }
 
 
@@ -756,9 +759,7 @@ header a {
         height: 350px;
         width: 350px;
     }
-    .div-about{
-        width: 90vw;
-    }
+    
     .about-two{
         display: flex;
         flex-direction: column;
@@ -819,6 +820,17 @@ header a {
         padding: 0px;
     }
 }
+
+@media (width < 300px){
+    #img-about{
+        height: 170px;
+        width: 170px;
+        
+    }
+
+   
+}
+
 
 /* end about */
 
@@ -955,6 +967,7 @@ header a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 80px;
 }
 
 #steps h1.titulos{
@@ -1030,6 +1043,135 @@ header a {
 
 /* end steps */
 
+/* start local */
+
+#local{
+    background-color: var(--roxo);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    
+}
+
+#container-local{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.div-local{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+}
+
+.div-local img{
+    height: 10vw;
+    width: 17vw;
+    border-radius: 30px;
+    box-shadow: 0px 8px 10px rgba(255, 255, 255, 0.164);
+    margin-bottom: 25px;
+}
+
+.div-local h2{
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    text-align: center; 
+    padding-bottom: 10px;
+}
+
+.div-local h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 100px; 
+    border-bottom: 1px solid #fff; 
+  }
+
+.div-local p{
+    font-size: 19px;
+    line-height: 22px;
+}
+
+@media (width < 1300px){
+.div-local img {
+    height: 14vw;
+    width: 25vw;
+}    
+}
+
+@media (width < 999px){
+    .div-local img {
+        height: 17vw;
+        width: 30vw;
+    }  
+    
+    .div-local{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}
+
+@media (width < 750px){
+    #container-local{
+        flex-direction: column;
+    }
+    .div-local{
+        margin-top: 50px;
+    }
+    #container-local {
+        margin-top: 20px;
+    }
+    .div-local img {
+        height: 24vw;
+        width: 40vw;
+    }
+}
+@media (width < 600px){
+    .div-local img {
+        height: 30vw;
+        width: 50vw;
+    }
+}
+
+@media (width < 400px){
+    .div-local img {
+        height: 40vw;
+        width: 70vw;
+    }
+}
+
+@media (width < 300px){
+    .div-local img {
+        height: 50vw;
+        width: 85vw;
+    }
+
+    .div-local{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+
+
+
+/* end local */
 
 
 
