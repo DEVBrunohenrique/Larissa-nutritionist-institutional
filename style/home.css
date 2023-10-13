@@ -1721,6 +1721,11 @@ div button:hover{
     #container-imc h1 {
         font-size: 22px;
     }
+    #imc-result, #cat-result, #weight-result {
+        color: var(--cinza);
+        font-size: 17px;
+        margin-top: 15px;
+    }
 }
 
 @media (width < 210px){
@@ -1746,6 +1751,10 @@ div button:hover{
     padding-bottom: 25px;
     padding-left: 0px;
     padding-right: 0px;
+}
+
+.div-imc input {
+    font-size: 16px;
 }
 
 }
