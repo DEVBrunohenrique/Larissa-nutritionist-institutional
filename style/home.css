@@ -1473,5 +1473,288 @@ footer{
 
 /* end footer */
 
+/* start calculator */
+
+#imc{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+    
+}
+
+#container-imc h1{
+    color: var(--cinza);
+    font-size: 27px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+#imc-c{
+    box-shadow: rgba(75, 74, 75, 0.3) 1px 3px 14px 0px;
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    
+}
+    
+
+
+#container-imc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.div-titulos-imc{
+    background-color: #8DC042;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    
+}
+
+.div-titulos-imc h1{
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.div-imc{
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    
+    
+}
+
+.div-imc div{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 10vw;
+    
+}
+
+.div-imc label{
+    font-size: 19px;
+    color: var(--cinza);
+}
+
+.div-imc select{
+    border: none;
+    border-bottom: solid 1px;
+    width: 10vw;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    color: var(--cinza);
+}
+
+.div-imc input{
+    width: 10vw;
+    border: none;
+    border-bottom: solid 1px;
+    padding-top: 20px;
+    color: var(--cinza);
+    font-size: 20px;
+}
+
+.div-imc input:focus{    
+
+    outline: 1px;
+}
+#age option:hover{    
+
+    background-color: #8DC042;
+}
+
+div button{
+    background: linear-gradient(#8DC042, #8cce89);
+    padding: 10px 40px 10px 40px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 19px;
+    border: none;
+    box-shadow: rgba(75, 74, 75, 0.3) 1px 3px 14px 0px;
+}
+
+div button:hover{
+  opacity: 0.9;
+}
+
+#results{
+    margin-top: 70px;
+    height: 200px;
+}
+
+#imc-result, #cat-result, #weight-result{
+    color: var(--cinza);
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+@media (width < 1050px){
+    .div-imc input {
+        width: 15vw;
+    }
+
+    .div-imc select {
+        width: 15vw;
+    }
+
+    .div-imc{
+        margin-top: 60px;
+        margin-bottom: 60px
+    }
+    .div-imc div {
+        width: 15vw;
+    }
+    .div-titulos-imc {
+        width: none;
+    }
+}
+
+@media (width < 750px){
+    .div-titulos-imc h1 {
+        font-size: 23px;
+        font-weight: 500;
+    }
+    .div-imc input {
+        width: 18vw;
+    }
+
+    .div-imc select {
+        width: 18vw;
+    }
+}
+@media (width < 620px){
+    .div-titulos-imc h1 {
+        font-size: 23px;
+        font-weight: 500;
+    }
+    .div-imc input {
+        width: 22vw;
+    }
+
+    .div-imc select {
+        width: 22vw;
+    }
+    .div-imc div{
+        width: 22vw;
+    }
+}
+
+@media (width < 620px){
+    .div-titulos-imc h1 {
+        font-size: 20px;
+        
+    }
+    .div-imc input {
+        width: 22vw;
+    }
+
+    .div-imc select {
+        width: 22vw;
+    }
+    .div-imc div{
+        width: 22vw;
+    }
+}
+
+@media (width < 500px){
+  .div-imc {
+    display: flex;
+    justify-content: center;
+    margin: 33px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+    #container-imc h1 {
+        color: var(--cinza);
+        font-size: 25px;
+        font-weight: 500;
+        margin-top: 30px;
+    }
+}   
+
+
+
+@media (width < 300px){
+    .div-imc label {
+        font-size: 15px;
+        margin-top: 25px;
+       
+    }
+    .div-imc select {
+        font-size: 15px;
+        
+    }
+    .div-imc input {
+        width: 50vw;
+    }
+    .div-imc select {
+        width: 50vw;
+        
+    }
+    .div-imc div {
+        width: 50vw;
+    }
+    .div-imc{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin: 10px;
+    }
+
+    button{
+        margin-top: 50px;
+    }
+    #container-imc h1 {
+        font-size: 22px;
+    }
+}
+
+@media (width < 210px){
+    div  button{
+    padding: 5vw 10vw 5vw 10vw;
+    font-size: 14px;
+  }
+  .div-imc input {
+    width: 45vw;
+}
+.div-imc select {
+    width: 45vw;
+    
+}
+.div-imc div {
+    width: 45vw;
+}
+.div-titulos-imc {
+    background-color: #8DC042;
+    color: #fff;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+}
+
+
+
+
+/* end calculator  */
+
+
 
 
