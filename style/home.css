@@ -241,7 +241,15 @@ header a {
     font-size: 35px;
     
 }
+
+
 }
+@media (width < 500px){
+    .nav-list a {
+        font-size: 19px;
+    }
+    
+    }
 @media (width < 330px){
 .titulos{
     font-size: 28px;
