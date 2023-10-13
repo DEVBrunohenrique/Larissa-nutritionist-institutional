@@ -1423,6 +1423,9 @@ footer{
         padding-top: 30px;
         padding-bottom: 20px;
     }
+    .h1-footer {
+        font-size: 20px;
+    }
 
 }
 
