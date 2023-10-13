@@ -1686,6 +1686,46 @@ div button:hover{
     }
 }   
 
+@media (width < 500px){
+    .div-imc label {
+        font-size: 15px;
+        margin-top: 25px;
+       
+    }
+    .div-imc select {
+        font-size: 15px;
+        
+    }
+    .div-imc input {
+        width: 50vw;
+    }
+    .div-imc select {
+        width: 50vw;
+        
+    }
+    .div-imc div {
+        width: 50vw;
+    }
+    .div-imc{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin: 10px;
+    }
+
+    button{
+        margin-top: 50px;
+    }
+    #container-imc h1 {
+        font-size: 22px;
+    }
+    #imc-result, #cat-result, #weight-result {
+        color: var(--cinza);
+        font-size: 17px;
+        margin-top: 15px;
+    }
+}
+
 
 
 @media (width < 300px){
