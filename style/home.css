@@ -1577,7 +1577,7 @@ footer{
     background-color: #8DC042;
 }
 
-div button{
+#button-imc{
     background: linear-gradient(#8DC042, #8cce89);
     padding: 10px 40px 10px 40px;
     border-radius: 30px;
@@ -1587,7 +1587,7 @@ div button{
     box-shadow: rgba(75, 74, 75, 0.3) 1px 3px 14px 0px;
 }
 
-div button:hover{
+#button-imc:hover{
   opacity: 0.9;
 }
 
@@ -1713,7 +1713,7 @@ div button:hover{
         margin: 10px;
     }
 
-    button{
+    #button-imc{
         margin-top: 50px;
     }
     #container-imc h1 {
@@ -1759,7 +1759,7 @@ div button:hover{
         margin: 10px;
     }
 
-    button{
+    #button-imc{
         margin-top: 50px;
     }
     #container-imc h1 {
@@ -1773,7 +1773,7 @@ div button:hover{
 }
 
 @media (width < 210px){
-    div  button{
+    #button-imc{
     padding: 5vw 10vw 5vw 10vw;
     font-size: 14px;
   }
@@ -1802,7 +1802,45 @@ div button:hover{
 }
 
 }
+#article-imc .titulos{
+    color: var(--roxo);
+    text-align: center;
+    margin-top: 50px;
+}
 
+#article-imc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+article{
+    width: 65vw;
+    font-size: 23px;
+    color: var(--cinza);
+    margin-top: 50px;
+    line-height: 30px;
+}
+
+@media (width < 999px){
+    article{
+        width: 90vw;
+        font-size: 22px;
+    }
+}
+@media (width < 500px){
+    article{
+        width: 95vw;
+        font-size: 20px;
+    }
+}
+@media (width < 300px){
+    article{
+        width: 99vw;
+        font-size: 20px;
+    }
+}
 
 
 
