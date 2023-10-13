@@ -1697,14 +1697,14 @@ footer{
         
     }
     .div-imc input {
-        width: 50vw;
+        width: 65vw;
     }
     .div-imc select {
-        width: 50vw;
+        width: 65vw;
         
     }
     .div-imc div {
-        width: 50vw;
+        width: 65vw;
     }
     .div-imc{
         flex-direction: column;
@@ -1741,16 +1741,6 @@ footer{
     .div-imc select {
         font-size: 15px;
         
-    }
-    .div-imc input {
-        width: 50vw;
-    }
-    .div-imc select {
-        width: 50vw;
-        
-    }
-    .div-imc div {
-        width: 50vw;
     }
     .div-imc{
         flex-direction: column;
