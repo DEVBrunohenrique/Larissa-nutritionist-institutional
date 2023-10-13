@@ -1724,6 +1724,10 @@ div button:hover{
         font-size: 17px;
         margin-top: 15px;
     }
+
+    option{
+        padding-top: 10px;
+    }
 }
 
 
