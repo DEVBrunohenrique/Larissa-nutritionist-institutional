@@ -26,8 +26,13 @@ body{
     box-sizing: border-box;
 
 }
-main{
-    
+a[href^="tel"], 
+a[href^="mailto"], 
+a[href^="http://maps.google.com/maps"], 
+a[href^="https://maps.google.com/maps"] 
+{
+    text-decoration: none !important; 
+    color: inherit !important; 
 }
         /* Header */
 
@@ -185,8 +190,13 @@ header a {
 
 @media (width < 750px){
 .nav-list {
-    width: 80vw;
+    width: 90vw;
 }
+}
+@media (width < 500px){
+    .nav-list {
+        width: 100vw;
+    }
 
 }
 
@@ -1177,6 +1187,114 @@ header a {
     }
 }
 /* end local */
+
+/* start calc */
+
+#calc{
+    background-color: #8C40E1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    margin-top: 50px;
+}
+
+#calc-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#h1-calc{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.div-calc p{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.div-calc button{
+    background: linear-gradient(#8DC042, #8cce89);
+    color: #fff;
+    border: none;
+    padding: 30px;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.299)
+}
+.div-calc button:hover{
+    opacity: 0.9;
+}
+
+
+.div-calc{
+    margin: 40px;
+}
+
+@media (width < 900px){
+    #h1-calc {
+        font-size: 26px;
+    }
+    .div-calc p {
+        font-size: 23px;
+    }
+    .div-calc {
+        margin: 30px;
+    }
+}
+@media (width < 750px){
+    #h1-calc {
+        font-size: 22px;
+    }
+    .div-calc p {
+        font-size: 22px;
+    }
+    .div-calc {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .div-calc button {
+        font-size: 17px;   
+    }
+}
+
+@media (width < 630px){
+    #calc-container{
+        flex-direction: column;
+    }
+    .div-calc {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #calc{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+@media (width < 280px){
+    .div-calc {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    #h1-calc {
+        font-size: 19px;
+    }
+    .div-calc p {
+        font-size: 20px;
+    }
+    .div-calc button {
+        font-size: 16px;
+        padding: 15px;
+    }
+}
+
+
+/* end calc */
 
 /* start form */
 #contact{
