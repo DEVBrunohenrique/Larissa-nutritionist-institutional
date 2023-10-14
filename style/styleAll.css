@@ -2090,12 +2090,32 @@ article{
      
  }
 
-
-
-
-
 /* end contacts */
 
+/* Transition start*/
+[data-anime] {
+    opacity: 0;
+    transition: .3s;
+}
+
+[data-anime = "bottom"] {
+    transform: translate3d(0px, 150px, 0px);
+    transition: .5s;
+}
+
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+[data-anime = "left"] {
+    transform: translate3d(-200px, 0px, 0px);
+}
+
+[data-anime = "right"] {
+    transform: translate3d(200px, 0px, 0px);
+}
+/* Transition end */
 
 
 
