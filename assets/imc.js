@@ -52,7 +52,7 @@ function  imc(){
                     catResult.style.color = 'rgb(219, 127, 51)'
                     break
                 case imc < 34.9:
-                    catResult.innerHTML = `Nivel = Nivel = Obesidade Grau I`;
+                    catResult.innerHTML = `Nivel = Obesidade Grau I`;
                     imcResult.innerHTML = `IMC = ${imcFormated}`;
                     weightResult.innerHTML = `Peso ideal: ${ideaWeight.toFixed(2).replace('.',',').replace('-','')} Kg`;
                     catResult.style.color = 'rgb(202, 91, 0)'

@@ -1938,7 +1938,7 @@ footer{
 }
 
 article{
-    width: 65vw;
+    width: 69vw;
     font-size: 23px;
     color: var(--cinza);
     margin-top: 50px;
@@ -1964,9 +1964,28 @@ article{
     }
 }
 
-
-
 /* end calculator  */
+
+/* start about page */
+
+#about-page{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px
+}
+
+#about-page .titulos{
+    color: var(--roxo);
+}
+
+article{
+
+}
+
+/* end about page */
 
 
 
