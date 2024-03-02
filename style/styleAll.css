@@ -35,6 +35,9 @@ a[href^="https://maps.google.com/maps"]
     text-decoration: none !important; 
     color: inherit !important; 
 }
+
+
+
         /* Header */
 
 a:hover {
@@ -47,7 +50,7 @@ a:hover {
     letter-spacing: 4px;
     font-weight: 500;
     height: 85px;
-    
+    margin-left: -5px;
 }
 
 header{
@@ -59,17 +62,18 @@ header{
 
 header nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     background: #fff;
     height: 9vh;
     position: fixed;
-    width: 100vw;
+    width: 70vw;
     padding-top: 1vh;
     position: fixed;
     z-index: 999;
-    
+    padding-right: 15vw;
+    padding-left: 15vw;
 }
 
 .nav-list {
@@ -78,6 +82,7 @@ header nav {
     align-items: center;
     margin-top: 0px;
     border-bottom-left-radius: 10px;
+    gap: 50px;
 }
 
 .nav-list a{
@@ -87,9 +92,8 @@ header nav {
 
 .nav-list li {
     letter-spacing: 3px;
-    margin-left: 22px;
-    margin-right: 22px;
     font-weight: normal;
+    
 }
 
 .mobile-menu {
@@ -315,41 +319,40 @@ header a {
     margin-top: 80px;
 }
 
-#container-top{
-   width: 90vw; 
-   display:flex ;
-   justify-content: center;
+#container-top {
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
 }
-
 .div-top > img{
-    height: 450px;
-    width: 450px;
+    height: 350px;
+    width: 350px;
 }
 
 .div-top{
     justify-content: center;
-
     display: flex;
     flex-direction: column;
-    width: 32vw;
 }
-.div-top h1{
+
+.div-top h1 {
     color: var(--roxo);
     font-size: 40px;
     font-weight: 400;
-    margin-top: 4px;
-    margin-bottom: 4px;
+    margin-top: 6px;
+    margin-bottom: 7px;
 }
 
 .div-top h2{
     color: var(--cinza);
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 400;
 }
-.div-top h3{
+
+.div-top h3 {
     color: var(--cinza);
     font-size: 25px;
-    font-weight: normal;
+    font-weight: 400;
 }
 
 .one{
@@ -360,17 +363,16 @@ header a {
     align-items: end;
 }
 
-.div-consult{
-    background: linear-gradient(#8DC042, #8cce89);;
+.div-consult {
+    background: linear-gradient(#8DC042, #52b14d);
     border-radius: 30px;
-    padding: 12px;
+    padding: 9px;
     display: flex;
-    width: 350px;
     align-items: center;
     color: #fff;
     justify-content: center;
-    margin-top: 50px;
-    font-weight: 600;
+    margin-top: 25px;
+    font-weight: 500;
     font-size: 14px;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.164);
     cursor: pointer;
@@ -402,18 +404,11 @@ header a {
     .div-top{
         width: 36vw;
     }
-    header nav {
-        width: 100vw; 
-    }
 }
 
 @media (width < 1140px){
     .div-top{
         width: 36vw;
-    }
-    .div-top > img {
-        height: 400px;
-        width: 400px;
     }
     .div-top h1 {     
         font-size: 40px;
@@ -557,7 +552,7 @@ header a {
 
 /*   why start   */
 
-#why{
+#why {
     background-color: var(--roxo);
     margin-top: -5px;
     margin-bottom: -15px;
@@ -566,6 +561,7 @@ header a {
     flex-direction: column;
     padding-top: 30px;
     padding-bottom: 30px;
+    align-items: center;
 }
 
 #white-border{
@@ -600,8 +596,9 @@ header a {
     padding-top: 50px;
     padding-bottom: 15px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 70vw;
 }
 
 .div-why{
@@ -855,10 +852,12 @@ header a {
 
 /* start especialties */
 
-#specialties{
+#specialties {
     margin-top: 80px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-bottom: 90px;
 }
 
 
@@ -870,8 +869,10 @@ header a {
 
 #container-specialties{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 70vw;
+
 }
 
 .div-specialties{
@@ -884,7 +885,6 @@ header a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 70px;
     
 }
 
@@ -1000,6 +1000,7 @@ header a {
     flex-direction: column;
     align-items: left;
     justify-content: center;
+    width: 70vw;
 }
 
 .div-steps{
@@ -1217,7 +1218,7 @@ header a {
 }
 
 .div-calc button{
-    background: linear-gradient(#8DC042, #8cce89);
+    background: linear-gradient(#8DC042, #52b14d);
     color: #fff;
     border: none;
     padding: 30px;
@@ -1228,7 +1229,7 @@ header a {
     box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.299)
 }
 .div-calc button:hover{
-    opacity: 0.9;
+    
 }
 
 
@@ -1414,17 +1415,21 @@ header a {
 
 /* start footer */
 
-footer{
+footer {
     background-color: var(--roxo);
     padding-top: 50px;
     padding-bottom: 40px;
     margin-top: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 #container-footer{
     display: flex;
     align-items: top;
-    justify-content: center;
+    justify-content: space-around;
+    width: 70vw;
 }
 
 .div-footer a{
@@ -2118,6 +2123,53 @@ article{
 }
 
 /* Transition end */
+
+
+/* Update container 01/03/2024 */
+
+@media (width < 1200px){
+    header nav {
+        width: 90vw; 
+    }
+
+    #container-top {
+        width: 90vw;
+    }
+
+    .div-top > img {
+        height: 320px;
+        width: 320px;
+    }
+
+    #container-why {
+        width: 90vw;
+    }
+
+    #container-specialties {
+        width: 90vw;
+    }
+
+    #steps-container {
+        width: 90vw;
+    }
+
+    .text-steps {
+        width: 80vw;
+    }
+
+    #container-footer {
+        width: 90vw;
+    }
+
+    article {
+        width: 90vw;
+        font-size: 23px;
+        color: var(--cinza);
+        margin-top: 50px;
+        line-height: 30px;
+    }
+}
+
 
 
 
